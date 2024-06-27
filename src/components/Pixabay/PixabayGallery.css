@@ -1,0 +1,19 @@
+.pixabay-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .pixabay-gallery img {
+    border-radius: 8px;
+    transition: transform 0.2s;
+  }
+  
+  .pixabay-gallery img:hover {
+    transform: scale(1.05);
+  }
+  
+  .error {
+    color: red;
+    font-size: 1.2em;
+  }
